@@ -44,10 +44,15 @@ header p {
 
 .content-schedule p {
   padding-left:.7rem;
+  padding-bottom: .1rem;
   margin: .7rem;
   border-bottom: 1px solid #525050;
   font-weight: 500;
 }
+
+.content-schedule p:hover {
+  background: #d3cfcf;
+} 
 footer {
   margin-bottom: 2rem;
   text-align: center;
