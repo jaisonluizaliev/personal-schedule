@@ -4,8 +4,8 @@ const express = require('express')
 const server = express()
 
 //usage another files, css. img....
-server.use(express.static('public'))
-.get("/", (req, res)=> {
+server.use(express.static('src'))
+server.get("/", (req, res)=> {
   return res.sendFile(__dirname + "/index.html")
 })
 .listen(3000)
